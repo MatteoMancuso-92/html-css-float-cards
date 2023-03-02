@@ -1,12 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
 .container {
     margin: auto;
     padding: 50px;}
     
 .text {
     text-align: center;
-    }
+    float: left;
+}
 
 .text h1 {
     color: #E42567;
+    }
+
+
+.images {
+    float: left;
+    
 }
+
+
 
