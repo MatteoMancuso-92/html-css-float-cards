@@ -1,25 +1,37 @@
 * {
+    padding:0; 
+    margin: 0;
     box-sizing: border-box;
-}
-
-.container {
-    margin: auto;
-    padding: 50px;}
-    
+    }
+   
 .text {
     text-align: center;
-    float: left;
-}
 
-.text h1 {
+    }
+
+h1 {
+    margin-bottom: 1em;
     color: #E42567;
     }
 
-
-.images {
-    float: left;
-    
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
 }
+.container {
+    margin-inline: auto;
+    max-width: 1000px;}
+
+    .data .info {
+    margin-inline: -1rem;
+
+}
+
+
+
+
+
 
 
 
