@@ -2,36 +2,68 @@
     padding:0; 
     margin: 0;
     box-sizing: border-box;
-    }
+}
    
+
 .text {
     text-align: center;
-
-    }
+}
 
 h1 {
     margin-bottom: 1em;
     color: #E42567;
-    }
+}
+
 
 .clearfix::after {
 	content: "";
 	display: block;
 	clear: both;
 }
+
 .container {
     margin-inline: auto;
-    max-width: 1000px;}
-
-    .data .info {
-    margin-inline: -1rem;
-
+    max-width: 1000px;
 }
 
+/*  data */
 
+.data {
+    margin-inline: -1rem;
+}
 
+.info {
+    float: left;
+    background-color: #0F0E17;
+    color: white;
+    padding-right: 1rem;
+    margin: 1.5rem 1rem;
+    width: calc((100% - 6 * 1rem) / 3);
+    min-width: 280px;
+}
 
+.info img {
+    float: left;
+    margin-right: 1rem;
+    height:100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+}
 
+.info .name {
+    margin-top: .5rem;
+	margin-bottom: .3rem;
+	font-size: 1.3rem;
+	font-weight: bold;
+	white-space: nowrap;
+}
 
+.info .job {
+    margin-bottom: .3rem;
+}
 
-
+.info .email {
+    text-decoration: none;
+	color: #54CEFF
+}
